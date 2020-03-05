@@ -1,17 +1,16 @@
-# quetes-wild-code-school
+argentdispo =  lire decimal
 
-ArgentDisponible = Liredecimal ()
+prixunitaire =  lire decimal
 
-Prixunitaire = Liredecimal ()
+nombrebonbon = 0
 
-Nbonbon = 0
-
-tant que Argentdisponible <= 0 et Prix unitaire <= 0
-
-Nbonbon = 0
-
-Sinon : 
-
-Nbonbon = ArgentDisponible / PrixUnitaire
-
-Afficher arrondi inferieur Nbonbon
+while argentdispo > 0 and prixunitaire > 0 :
+    
+       
+    argentdispo = argentdispo - prixunitaire
+        
+    if argentdispo > 0 :
+    
+        nombrebonbon = nombrebonbon + 1
+    
+print(nombrebonbon)
